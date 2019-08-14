@@ -4,7 +4,7 @@
 
 body {
   background-color: #ffffff;
-  font-size: 17px;
+  font-size: 16px;
   font-family: 'SF Pro Display', sans-serif;
 }
 
@@ -33,16 +33,20 @@ body {
 
 .arrow-left {
   color: #ffffff;
-  padding-top: 5px;
+  padding-top: 15px;
   padding-left: 11px;
   float: left;
 }
 
 .arrow {
   width: 5%;
-  padding-top: 10px;
+  padding-top: 18px;
   padding-right: 30px;
   float: right;
+}
+
+.fa {
+  text-align: right;
 }
 
 .nav_back_text {
@@ -76,7 +80,16 @@ body {
   border-bottom-width: thin;
   height: 50px;
   width: 95%;
-  float: right;
+  margin-left: auto;
+}
+
+.category {
+  background-color: #D8DBE2;
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: thin;
+  padding-left: 3%;
+  height: 50px;
 }
 
 .content{
