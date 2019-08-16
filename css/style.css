@@ -10,6 +10,7 @@ body {
 
 .container {
   width: 375px;
+  margin: auto;
 }
 
 .nav_bar {
@@ -40,8 +41,13 @@ body {
 
 .arrow {
   width: 5%;
-  padding-top: 18px;
+  padding-top: 23px;
   padding-right: 30px;
+  float: right;
+}
+
+.arrow_down {
+  width: 5%;
   float: right;
 }
 
@@ -78,7 +84,7 @@ body {
   border-bottom: solid;
   border-bottom-color: black;
   border-bottom-width: thin;
-  height: 50px;
+  height: 60px;
   width: 95%;
   margin-left: auto;
 }
@@ -92,8 +98,16 @@ body {
   height: 50px;
 }
 
-.content{
+.content {
   width: 90%;
   display: inline-block;
-  line-height: 50px;
+  line-height: 22px;
+  padding-top: 8px;
+}
+
+h1 {
+  width: 90%;
+  display: inline-block;
+  line-height: 22px;
+  padding-top: 14px;
 }
